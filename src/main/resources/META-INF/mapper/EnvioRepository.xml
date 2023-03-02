@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace=".EnvioRepository">
+    <resultMap id="BaseResultMap" type="org.ecommerce.entities.Envio">
+        <!--@JPA.Support generated on 2023-03-02 03:20:05.-->
+        <!--@Table envio-->
+        <id column="id_envio" jdbcType="INTEGER" property="idEnvio"/>
+        <result column="id_pedido" jdbcType="INTEGER" property="idPedido"/>
+        <result column="agencia_transportes" jdbcType="VARCHAR" property="agenciaTransportes"/>
+        <result column="fecha_entrega" jdbcType="TIMESTAMP" property="fechaEntrega"/>
+        <result column="fecha_envio" jdbcType="TIMESTAMP" property="fechaEnvio"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        <!--@JPA.Support generated on 2023-03-02 03:20:05.-->
+        id_envio, id_pedido, agencia_transportes, fecha_entrega, fecha_envio
+    </sql>
+</mapper>

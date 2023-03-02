@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace=".FacturaRepository">
+    <resultMap id="BaseResultMap" type="org.ecommerce.entities.Factura">
+        <!--@JPA.Support generated on 2023-03-02 03:20:06.-->
+        <!--@Table factura-->
+        <id column="id_factura" jdbcType="INTEGER" property="idFactura"/>
+        <result column="id_pedido" jdbcType="INTEGER" property="idPedido"/>
+        <result column="id_metodo_pago" jdbcType="INTEGER" property="idMetodoPago"/>
+        <result column="fecha_factura" jdbcType="TIMESTAMP" property="fechaFactura"/>
+        <result column="total" jdbcType="DOUBLE" property="total"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        <!--@JPA.Support generated on 2023-03-02 03:20:06.-->
+        id_factura, id_pedido, id_metodo_pago, fecha_factura, total
+    </sql>
+</mapper>

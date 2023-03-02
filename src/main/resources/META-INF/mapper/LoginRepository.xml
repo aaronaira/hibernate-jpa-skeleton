@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace=".LoginRepository">
+    <resultMap id="BaseResultMap" type="org.ecommerce.entities.Login">
+        <!--@JPA.Support generated on 2023-03-02 03:20:06.-->
+        <!--@Table login-->
+        <id column="id_login" jdbcType="INTEGER" property="idLogin"/>
+        <result column="id_usuario" jdbcType="INTEGER" property="idUsuario"/>
+        <result column="fecha_login" jdbcType="TIMESTAMP" property="fechaLogin"/>
+        <result column="email" jdbcType="VARCHAR" property="email"/>
+        <result column="contraseña" jdbcType="VARCHAR" property="contraseña"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        <!--@JPA.Support generated on 2023-03-02 03:20:06.-->
+        id_login, id_usuario, fecha_login, email, contraseña
+    </sql>
+</mapper>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace=".HibernateSequenceRepository">
+    <resultMap id="BaseResultMap" type="org.ecommerce.entities.HibernateSequence">
+        <!--@JPA.Support generated on 2023-03-02 03:20:06.-->
+        <!--@Table hibernate_sequence-->
+        <result column="next_val" jdbcType="BIGINT" property="nextVal"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        <!--@JPA.Support generated on 2023-03-02 03:20:06.-->
+        next_val
+    </sql>
+</mapper>
