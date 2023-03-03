@@ -1,15 +1,13 @@
 package org.ecommerce.entities;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "usuario")
 public class Usuario {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_usuario", nullable = false)
     private Integer idUsuario;
 
@@ -21,6 +19,16 @@ public class Usuario {
 
     @Column(name = "apellido", nullable = false)
     private String apellido;
+
+    public Usuario() {
+
+    }
+
+    public Usuario(int idRegistro, String nombre, String apellido) {
+        this.idRegistro = idRegistro;
+        this.nombre = nombre;
+        this.apellido = apellido;
+    }
 
     public void setIdUsuario(Integer idUsuario) {
         this.idUsuario = idUsuario;

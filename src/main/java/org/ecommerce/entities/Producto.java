@@ -22,6 +22,9 @@ public class Producto {
     @Column(name = "precio", nullable = false)
     private Integer precio;
 
+    @Column(name = "imagen", nullable = false)
+    private String imagen;
+
     @Column(name = "cantidad", nullable = false)
     private Integer cantidad;
 

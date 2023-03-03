@@ -5,8 +5,31 @@
         version="2.0">
 
     <persistence-unit name="org.ecommerce">
-        <class>org.ecommerce.entities.Usuario</class>
+
+        <class>org.ecommerce.entities.Banco</class>
+        <class>org.ecommerce.entities.Carrito</class>
+        <class>org.ecommerce.entities.CarritoProducto</class>
+        <class>org.ecommerce.entities.Categoria</class>
+        <class>org.ecommerce.entities.CategoriaProducto</class>
+        <class>org.ecommerce.entities.Cupon</class>
+        <class>org.ecommerce.entities.DatosCobro</class>
+        <class>org.ecommerce.entities.Direccion</class>
+        <class>org.ecommerce.entities.DireccionUsuario</class>
+        <class>org.ecommerce.entities.Envio</class>
+        <class>org.ecommerce.entities.Factura</class>
+        <class>org.ecommerce.entities.Login</class>
+        <class>org.ecommerce.entities.MetodoBanco</class>
+        <class>org.ecommerce.entities.MetodoPago</class>
+        <class>org.ecommerce.entities.Pedido</class>
+        <class>org.ecommerce.entities.PedidoCupon</class>
+        <class>org.ecommerce.entities.Producto</class>
+        <class>org.ecommerce.entities.ProductoPromocion</class>
+        <class>org.ecommerce.entities.Promocion</class>
         <class>org.ecommerce.entities.Registro</class>
+        <class>org.ecommerce.entities.Sesion</class>
+        <class>org.ecommerce.entities.TipoIva</class>
+        <class>org.ecommerce.entities.Usuario</class>
+
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>

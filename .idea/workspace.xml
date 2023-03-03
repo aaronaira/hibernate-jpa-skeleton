@@ -5,12 +5,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db1ef658-c145-4d89-9ea5-e98f7d1ba6a4" name="Changes" comment="Simple Hibernate &amp; JPA skeleton">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy-datasource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/WEB-INF/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/application/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/daos/UsuarioDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/infraestructure/http/views/patrials/body.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/infraestructure/http/views/patrials/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/infraestructure/http/views/patrials/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/interfaces/Dao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/Registro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/Registro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/BancoRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/CarritoProductoRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/CarritoRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/CategoriaProductoRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/CategoriaRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/CuponRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/CustomerRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/DatosCobroRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/DireccionRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/DireccionUsuarioRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/EnvioRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/FacturaRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/HibernateSequenceRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/LoginRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/MetodoBancoRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/MetodoPagoRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/PedidoCuponRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/PedidoRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/ProductoPromocionRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/ProductoRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/PromocionRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/RegistroRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/SesionRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/TipoIvaRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mapper/UsuarioRepository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="GitToolBoxStore">
     <option name="recentBranches">
@@ -37,6 +91,16 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -57,6 +121,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "Downloaded.Files.Path.Enabled": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -64,18 +129,58 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/darkonte/Downloads/mysql-connector-j-8.0.31/mysql-connector-j-8.0.31.jar",
-    "project.structure.last.edited": "Libraries",
+    "last_opened_file_path": "C:/Users/Aaron/Desktop/Aaron/SimpleChat",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.side.proportion": "0.31609195",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aaron\Desktop\Aaron\hibernate-jpa-skeleton\src\main\java\org\ecommerce\infraestructure\http\views\patrials" />
+      <recent name="C:\Users\Aaron\Desktop\Aaron\hibernate-jpa-skeleton\src\main\java\org\ecommerce\infraestructure\http\view" />
       <recent name="C:\Users\darkonte\Desktop\Java\Ecommerce2\src\main\resources\META-INF\mapper" />
       <recent name="C:\Users\darkonte\Desktop\Java\Ecommerce2\src\main\java\org\ecommerce\mapper" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="hibernate-jpa-skeleton" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="hibernate-jpa-skeleton" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat Server" type="com.poratu.idea.plugins.tomcat" singleton="false">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="contextPath" value="/Ecommerce2" />
+      <option name="docBase" value="C:\Users\Aaron\Desktop\Aaron\hibernate-jpa-skeleton\src\main\WEB-INF" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.1.6" />
+          <option name="path" value="$USER_HOME$/Downloads/apache-tomcat-10.1.6" />
+          <option name="version" value="10.1.6.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -113,5 +218,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Simple Hibernate &amp; JPA skeleton" />
     <option name="LAST_COMMIT_MESSAGE" value="Simple Hibernate &amp; JPA skeleton" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
