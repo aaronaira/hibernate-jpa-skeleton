@@ -14,7 +14,7 @@ public class ProductoPromocion {
     @Column(name = "id_promocion", nullable = false)
     private Integer idPromocion;
 
-    @Id
+
     @Column(name = "id_producto", nullable = false)
     private Integer idProducto;
 

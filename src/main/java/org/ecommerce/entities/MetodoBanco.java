@@ -14,7 +14,7 @@ public class MetodoBanco {
     @Column(name = "id_metodo_pago", nullable = false)
     private Integer idMetodoPago;
 
-    @Id
+
     @Column(name = "id_banco", nullable = false)
     private Integer idBanco;
 

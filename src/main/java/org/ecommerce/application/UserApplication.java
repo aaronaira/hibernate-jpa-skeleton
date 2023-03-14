@@ -1,8 +1,9 @@
 package org.ecommerce.application;
 
-import org.ecommerce.daos.UsuarioDao;
+import org.carworkshop.daos.UsuarioDao;
 import org.ecommerce.entities.Usuario;
-import org.ecommerce.interfaces.Dao;
+import org.carworkshop.interfaces.Dao;
+import java.util.List;
 
 
 public class UserApplication {
@@ -17,10 +18,18 @@ public class UserApplication {
         user2.setIdRegistro(1);
 
         //saveUsuario(new Usuario(1, "Aaron", "Aira"));
-        saveUsuario(user2);
+        //saveUsuario(user2);
+        System.out.println(getUsuarios());
+
+
+
     }
 
     public static void saveUsuario(Usuario usuario) {
         usuarioDao.save(usuario);
+    }
+
+    public static List<Usuario> getUsuarios() {
+        return usuarioDao.getAll();
     }
 }

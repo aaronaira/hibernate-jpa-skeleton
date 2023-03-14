@@ -1,7 +1,7 @@
-package org.ecommerce.daos;
+package org.carworkshop.daos;
 
 import org.ecommerce.entities.Usuario;
-import org.ecommerce.interfaces.Dao;
+import org.carworkshop.interfaces.Dao;
 
 import javax.persistence.*;
 import java.util.List;
@@ -27,8 +27,10 @@ public class UsuarioDao implements Dao<Usuario> {
 
     @Override
     public List<Usuario> getAll() {
-        Query query = entityManager.createQuery("SELECT e FROM usuario e");
-        return query.getResultList();
+        List<Usuario> allUsers;
+        allUsers = entityManager.createQuery("from Usuario", Usuario.class).getResultList();
+        return allUsers;
+
     }
 
     @Override

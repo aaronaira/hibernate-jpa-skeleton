@@ -13,7 +13,7 @@ public class DireccionUsuario {
     @Column(name = "id_direccion", nullable = false)
     private Integer idDireccion;
 
-    @Id
+
     @Column(name = "id_usuario", nullable = false)
     private Integer idUsuario;
 

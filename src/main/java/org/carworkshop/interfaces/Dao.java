@@ -1,4 +1,4 @@
-package org.ecommerce.interfaces;
+package org.carworkshop.interfaces;
 
 import java.io.Serializable;
 import java.util.List;

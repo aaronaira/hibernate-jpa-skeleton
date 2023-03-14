@@ -14,7 +14,7 @@ public class PedidoCupon {
     @Column(name = "id_cupon", nullable = false)
     private Integer idCupon;
 
-    @Id
+
     @Column(name = "id_pedido", nullable = false)
     private Integer idPedido;
 

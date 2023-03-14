@@ -13,7 +13,6 @@ public class CarritoProducto {
     @Column(name = "id_carrito", nullable = false)
     private Integer idCarrito;
 
-    @Id
     @Column(name = "id_producto", nullable = false)
     private Integer idProducto;
 

@@ -13,7 +13,7 @@ public class CategoriaProducto {
     @Column(name = "id_producto", nullable = false)
     private Integer idProducto;
 
-    @Id
+
     @Column(name = "id_categoria", nullable = false)
     private Integer idCategoria;
 

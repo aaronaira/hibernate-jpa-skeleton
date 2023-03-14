@@ -7,35 +7,48 @@
     <persistence-unit name="org.ecommerce">
 
         <class>org.ecommerce.entities.Banco</class>
-        <class>org.ecommerce.entities.Carrito</class>
-        <class>org.ecommerce.entities.CarritoProducto</class>
-        <class>org.ecommerce.entities.Categoria</class>
-        <class>org.ecommerce.entities.CategoriaProducto</class>
-        <class>org.ecommerce.entities.Cupon</class>
-        <class>org.ecommerce.entities.DatosCobro</class>
-        <class>org.ecommerce.entities.Direccion</class>
-        <class>org.ecommerce.entities.DireccionUsuario</class>
-        <class>org.ecommerce.entities.Envio</class>
-        <class>org.ecommerce.entities.Factura</class>
-        <class>org.ecommerce.entities.Login</class>
-        <class>org.ecommerce.entities.MetodoBanco</class>
-        <class>org.ecommerce.entities.MetodoPago</class>
-        <class>org.ecommerce.entities.Pedido</class>
-        <class>org.ecommerce.entities.PedidoCupon</class>
-        <class>org.ecommerce.entities.Producto</class>
-        <class>org.ecommerce.entities.ProductoPromocion</class>
-        <class>org.ecommerce.entities.Promocion</class>
-        <class>org.ecommerce.entities.Registro</class>
-        <class>org.ecommerce.entities.Sesion</class>
-        <class>org.ecommerce.entities.TipoIva</class>
-        <class>org.ecommerce.entities.Usuario</class>
+        <class>org.carworkshop.entities.CabeceraDiagnostico</class>
+        <class>org.carworkshop.entities.Cita</class>
+        <class>org.carworkshop.entities.Cliente</class>
+        <class>org.carworkshop.entities.ClienteFacturaRecibo</class>
+        <class>org.carworkshop.entities.ClienteFacturaReciboId</class>
+        <class>org.carworkshop.entities.Empelado</class>
+        <class>org.carworkshop.entities.Encuesta</class>
+        <class>org.carworkshop.entities.FacturaCabecera</class>
+        <class>org.carworkshop.entities.FacturaLinea</class>
+        <class>org.carworkshop.entities.FacturaLineaId</class>
+        <class>org.carworkshop.entities.FacturaLineaMo</class>
+        <class>org.carworkshop.entities.FacturaLineaPieza</class>
+        <class>org.carworkshop.entities.FacturaLineaPiezaId</class>
+        <class>org.carworkshop.entities.LineaDiagnostico</class>
+        <class>org.carworkshop.entities.LineaDiagnosticoId</class>
+        <class>org.carworkshop.entities.ManoobraOt</class>
+        <class>org.carworkshop.entities.ManoobraOtId</class>
+        <class>org.carworkshop.entities.MedioPago</class>
+        <class>org.carworkshop.entities.OtCabecera</class>
+        <class>org.carworkshop.entities.OtTotale</class>
+        <class>org.carworkshop.entities.Pieza</class>
+        <class>org.carworkshop.entities.PiezasOt</class>
+        <class>org.carworkshop.entities.PiezasOtId</class>
+        <class>org.carworkshop.entities.PrefCliente</class>
+        <class>org.carworkshop.entities.PrefClienteId</class>
+        <class>org.carworkshop.entities.Recepcion</class>
+        <class>org.carworkshop.entities.Recibo</class>
+        <class>org.carworkshop.entities.ReciboId</class>
+        <class>org.carworkshop.entities.Tarifa</class>
+        <class>org.carworkshop.entities.TipoVehiculo</class>
+        <class>org.carworkshop.entities.TotalesDiagnostico</class>
+        <class>org.carworkshop.entities.TotalesFactura</class>
+        <class>org.carworkshop.entities.Vehiculo</class>
+
+
 
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
             <property name="hibernate.hbm2ddl.auto" value="create"/>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/ecommerce"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/carworkshop"/>
             <property name="javax.persistence.jdbc.user" value="root"/>
             <property name="javax.persistence.jdbc.password" value="root"/>
         </properties>
