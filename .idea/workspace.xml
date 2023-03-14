@@ -5,50 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db1ef658-c145-4d89-9ea5-e98f7d1ba6a4" name="Changes" comment="Implemented dao">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/CabeceraDiagnostico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/Cita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/ClienteFacturaRecibo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/ClienteFacturaReciboId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/Encuesta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/FacturaCabecera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/FacturaLinea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/FacturaLineaId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/FacturaLineaMo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/FacturaLineaMoId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/FacturaLineaPieza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/FacturaLineaPiezaId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/LineaDiagnostico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/LineaDiagnosticoId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/ManoobraOt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/ManoobraOtId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/MedioPago.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/OtCabecera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/OtTotale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/Pieza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/PiezasOt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/PiezasOtId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/PrefCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/PrefClienteId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/Recepcion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/Recibo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/ReciboId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/Tarifa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/TipoVehiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/TotalesDiagnostico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/TotalesFactura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/carworkshop/entities/Vehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy-datasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy-datasource.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/application/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/application/UserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/daos/UsuarioDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/daos/UsuarioDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/CarritoProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/CarritoProducto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/CategoriaProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/CategoriaProducto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/DireccionUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/DireccionUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/MetodoBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/MetodoBanco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/PedidoCupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/PedidoCupon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/ProductoPromocion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/ProductoPromocion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/application/UserApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/Banco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/Carrito.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/CarritoProducto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/Categoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/CategoriaProducto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/Cupon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/DatosCobro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/Direccion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/DireccionUsuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/Envio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/Factura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/HibernateSequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/MetodoBanco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/MetodoPago.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/Pedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/PedidoCupon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/ProductoPromocion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/Promocion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/Registro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/Sesion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/TipoIva.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/entities/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/infraestructure/http/views/patrials/body.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/infraestructure/http/views/patrials/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/infraestructure/http/views/patrials/header.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -202,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677871641162</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implemented dao">
+      <created>1678819416812</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678819416812</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
