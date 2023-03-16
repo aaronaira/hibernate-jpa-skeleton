@@ -6,7 +6,6 @@
 
     <persistence-unit name="org.carworkshop">
 
-        <class>org.ecommerce.entities.Banco</class>
         <class>org.carworkshop.entities.CabeceraDiagnostico</class>
         <class>org.carworkshop.entities.Cita</class>
         <class>org.carworkshop.entities.Cliente</class>
@@ -22,6 +21,7 @@
         <class>org.carworkshop.entities.FacturaLineaPiezaId</class>
         <class>org.carworkshop.entities.LineaDiagnostico</class>
         <class>org.carworkshop.entities.LineaDiagnosticoId</class>
+        <class>org.carworkshop.entities.Login</class>
         <class>org.carworkshop.entities.ManoobraOt</class>
         <class>org.carworkshop.entities.ManoobraOtId</class>
         <class>org.carworkshop.entities.MedioPago</class>

@@ -6,7 +6,7 @@
 <hibernate-configuration>
     <session-factory>
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="connection.url">jdbc:mysql://localhost:3306/ecommerce</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/carworkshop</property>
         <property name="connection.username">root</property>
         <property name="connection.password">root</property>
         <property name="dialect">com.hibernate.dialect.MySQL8Dialect</property>
@@ -14,7 +14,8 @@
         <property name="hbm2ddl.auto">create</property>
         <property name="current_session_context_class">thread</property>
 
-        <mapping resource="org.ecommerce.entities.Usuario"/>
+        <mapping resource="org.carworkshop.entities.Cliente"/>
+        <mapping resource="org.carworkshop.entities.Login"/>
         <mapping resource="items.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>

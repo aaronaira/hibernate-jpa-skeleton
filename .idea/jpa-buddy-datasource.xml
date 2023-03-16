@@ -3,6 +3,7 @@
   <component name="JpbDataSourceConfig">
     <data-sources>
       <data-source id="f3e57290-420b-4771-b686-30df92968560" name="hibernate-jpa-skeleton" url="jdbc:mysql://localhost/carworkshop?useSSL=false&amp;allowMultiQueries=true&amp;serverTimezone=UTC" driverClass="com.mysql.cj.jdbc.Driver" />
+      <data-source id="b2599871-bfaa-4100-b1a4-01a06905712c" name="asdasd" url="jdbc:mysql://127.0.0.1/carworkshop?useSSL=false&amp;allowMultiQueries=true&amp;serverTimezone=UTC" driverClass="com.mysql.cj.jdbc.Driver" />
     </data-sources>
   </component>
 </project>

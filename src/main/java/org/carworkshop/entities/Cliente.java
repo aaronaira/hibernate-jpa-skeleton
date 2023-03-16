@@ -1,32 +1,28 @@
 package org.carworkshop.entities;
 
-import org.ecommerce.entities.Login;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "cliente")
 public class Cliente {
-    @Id
-    @Column(name = "id", nullable = false)
     private Integer id;
 
-    @Column(name = "nombre", nullable = false, length = 50)
     private String nombre;
 
-    @Column(name = "apellidos", nullable = false, length = 50)
     private String apellidos;
 
-    @Column(name = "dni", nullable = false, length = 50)
     private String dni;
 
-    @Column(name = "direccion", nullable = false, length = 50)
     private String direccion;
 
-    @OneToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "email", nullable = false)
     private Login email;
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", nullable = false)
     public Integer getId() {
         return id;
     }
@@ -35,6 +31,7 @@ public class Cliente {
         this.id = id;
     }
 
+    @Column(name = "nombre", nullable = false, length = 50)
     public String getNombre() {
         return nombre;
     }
@@ -43,6 +40,7 @@ public class Cliente {
         this.nombre = nombre;
     }
 
+    @Column(name = "apellidos", nullable = false, length = 50)
     public String getApellidos() {
         return apellidos;
     }
@@ -51,6 +49,7 @@ public class Cliente {
         this.apellidos = apellidos;
     }
 
+    @Column(name = "dni", nullable = false, length = 50)
     public String getDni() {
         return dni;
     }
@@ -59,6 +58,7 @@ public class Cliente {
         this.dni = dni;
     }
 
+    @Column(name = "direccion", nullable = false, length = 50)
     public String getDireccion() {
         return direccion;
     }
@@ -67,6 +67,9 @@ public class Cliente {
         this.direccion = direccion;
     }
 
+    @OneToOne(fetch = FetchType.LAZY, optional = false, cascade = CascadeType.PERSIST)
+    @OnDelete(action = OnDeleteAction.CASCADE)
+    @JoinColumn(name = "email", nullable = false, referencedColumnName = "email")
     public Login getEmail() {
         return email;
     }
